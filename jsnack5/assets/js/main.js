@@ -1,11 +1,14 @@
-// INPUT
-// chiedere 10 volte un numero e stampare la somma di tutti
-var somma = 0;
+// creo array vuoto
+var arrayVuoto = [];
 
-for (var i = 0; i < 10; i++) {
-  var numero = parseInt(prompt("inserisci un numero: "));
-  console.log(numero);
-  somma = somma + numero;
+//chiedo sei volte di inserire un numero
+for (var i = 0; i < 6; i++) {
+  var numero = prompt("Inserisci un numero: ");
+  // se il numero inserito è dispari
+  if (numero%2) {
+    // lo inserisce nell'Array
+    arrayVuoto.push(numero);
+  }
 }
 
-console.log(somma);
+console.log(arrayVuoto);
