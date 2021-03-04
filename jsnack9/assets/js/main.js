@@ -12,3 +12,16 @@ console.log(somma);
 var media = somma/10;
 
 console.log(media);
+
+
+// oppure
+// var somma = 0;
+//
+// for (var i = 0; i < 10; i++) {
+//   somma += i+1;
+//   console.log(i);
+// }
+//
+// var media = somma/i;
+//
+// console.log(media);

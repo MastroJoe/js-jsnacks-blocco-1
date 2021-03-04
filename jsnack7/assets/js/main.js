@@ -5,3 +5,9 @@ for (var i = 1; i <= 1000; i++) {
     console.log(risultato);
   }
 }
+
+//oppure
+
+// for (var i = 0; MAth.pow(2, i) < 1000; i++) {
+//  console.log(MAth.pow(2, i));
+// }
